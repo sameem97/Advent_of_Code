@@ -1,5 +1,3 @@
-import math
-
 with open("Input.txt") as inputs:
     my_list_str = inputs.read().splitlines()
 
