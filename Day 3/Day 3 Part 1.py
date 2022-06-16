@@ -15,7 +15,7 @@ counts = [[] for _ in range(len(my_list_str[0]))]
 #i.e. see my_list_str[0] 011010010110 0 appends to counts[0], 1 appends to counts [1], 1 appends to counts [2] etc...
 #essentially this section is a loop within a loop, appending each bit to the corresponding list within counts.
 for bin in my_list_str:
-    for (column, bit) in enumerate(bin):
+    for column, bit in enumerate(bin):
         counts[column].append(bit)
 
 #ESSENTIALLY UP TO THIS POINT WE'VE DONE A TRANSPOSE.
